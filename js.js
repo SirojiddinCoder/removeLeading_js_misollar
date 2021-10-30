@@ -1,3 +1,7 @@
+//  Create a function that takes in a number as a string n and returns the number without trailing and leading zeros.
+//   Trailing Zeros are the zeros after a decimal point which don't affect the value (e.g. the last three zeros in 3.4000 and 3.04000).
+//   Leading Zeros are the zeros before a whole number which don't affect the value (e.g. the first three zeros in 000234 and 000230).
+
 
 1;
 // Create a function that takes in a number as a string n and returns the number without trailing and leading zeros.
@@ -47,12 +51,28 @@
 
 // insertWhitespace("TheGreatestUpsetInHistory") ➞ "The Greatest Upset In History"
 
-n = "230.000";
-function str1(n) {
-    let num = parseFloat(n);
-    return num === Math.floor(num) ? Math.floor(num).toString() : num.toString();
 
 
-  }
+// 1-masala  removeLeadingTrailing("230.000") ➞ "230"
 
-  console.log(str1(230.000));
+// n = "230.000";
+// function str1(n) {
+//     let num = parseFloat(n);
+//     return num === Math.floor(num) ? Math.floor(num).toString() : num.toString();
+
+
+//   }
+
+//   console.log(str1(230.000));
+
+
+// 2 -usul while da
+// let n = "230.000"
+// Result  = (parseFloat(n));
+// console.log(Result);
+// while (Result>0 && Result% 10 == 0)
+// {
+//     Result = Result / 1;
+// }
+
+// console.log(Result);

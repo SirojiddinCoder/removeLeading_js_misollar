@@ -46,3 +46,13 @@
 // insertWhitespace("MarvinTalksTooMuch") ➞ "Marvin Talks Too Much"
 
 // insertWhitespace("TheGreatestUpsetInHistory") ➞ "The Greatest Upset In History"
+
+n = "230.000";
+function str1(n) {
+    let num = parseFloat(n);
+    return num === Math.floor(num) ? Math.floor(num).toString() : num.toString();
+
+
+  }
+
+  console.log(str1(230.000));
